@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Informatics_Restrictproduct module configuration
+*
+* @category    Informatics
+* @package     Informatics_Restrictproduct
+* @copyright   Copyright © 2016 Informatics. All rights reserved.
+*/
+ -->
+ <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Informatics_Restrictproduct" setup_version="1.0.0" >
+        <sequence>
+            <module name="Magento_Shipping" />
+        </sequence>
+    </module>
+</config>

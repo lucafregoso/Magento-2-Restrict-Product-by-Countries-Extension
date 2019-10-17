@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Informatics_Restrictproduct get custom attribute to quote
+*
+* @category    Informatics
+* @package     Informatics_Restrictproduct
+* @copyright   Copyright © 2016 Informatics. All rights reserved.
+*/
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- this makes base URL in secure mode | Magento\Quote\Model\Quote\Address\RateCollectorInterface --> 
+    <preference for="Magento\Shipping\Model\Shipping" type="Informatics\Restrictproduct\Model\Shipping" /> 
+    <!--<type name="Magento\Shipping\Model\Shipping">
+        <plugin name="shipping_check_restriction" type="Informatics\Restrictproduct\Model\Shipping" sortOrder="1"/>
+    </type>-->
+</config>

@@ -1,0 +1,12 @@
+{
+    "name": "informatics/restrictproduct",
+    "description": "This extension is used to restrict the product if it is denied to specific country",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Informatics\\Restrictproduct\\": ""
+        }
+    }
+}
